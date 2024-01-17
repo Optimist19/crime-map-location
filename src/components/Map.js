@@ -1,6 +1,6 @@
 import GoogleMapReact from 'google-map-react';
 import LocationMarker from './LocationMarker';
-import LocationInfo from './LocationInfo';
+// import LocationInfo from './LocationInfo';
 
 function Map({eventData, center, zoom}) {
 

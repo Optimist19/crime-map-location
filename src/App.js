@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Map from './components/Map';
 import { api } from './data/api';
@@ -7,7 +7,7 @@ import { api } from './data/api';
 
 function App() {
 
-  const [eventData, setEventData] = useState(api)
+  const [eventData] = useState(api)
 
   return (
     <div className='app'>
